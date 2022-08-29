@@ -6,10 +6,10 @@
         "laravel/helpers": "^1.5"
     },
     "autoload": {
-        "psr-4": {
-            "CloudFunctionsHelpers\\": "src/"
-        }
-    },
+		"files": [
+			"src/Util.php"
+		]
+	},
     "scripts": {
         "start": [
            "Composer\\Config::disableProcessTimeout"
