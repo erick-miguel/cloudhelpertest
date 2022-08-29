@@ -1,8 +1,14 @@
 {
     "name": "erick-miguel/cloudhelpertest",
+    "main": "CloudFunctionsHelper.php",
     "require": {
         "php": ">= 7.4",
         "laravel/helpers": "^1.5"
+    },
+    "autoload": {
+        "files": [
+            "src/CloudFunctionsHelper.php"
+        ]
     },
     "scripts": {
         "start": [
