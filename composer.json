@@ -1,15 +1,18 @@
 {
-    "name": "erick-miguel/cloudhelpertest",
+    "name": "erick-miguel/cloudfunctionhelpers",
     "main": "CloudFunctionsHelper.php",
-    "require": {
-        "php": ">= 7.4",
-        "laravel/helpers": "^1.5"
-    },
     "autoload": {
 		"files": [
 			"src/Util.php"
 		]
 	},
+    "autoload": {
+        "psr-0": { "CloudFunctionsHelpers": "src/" }
+    },
+    "require": {
+        "php": ">= 7.4",
+        "laravel/helpers": "^1.5"
+    },
     "scripts": {
         "start": [
            "Composer\\Config::disableProcessTimeout"
