@@ -10,7 +10,10 @@
     }
     ,"autoload": {
         "psr-4": {
-            "teste\\": "src/teste"
+            "CloudFunctionHelpers\\": "src"
         }
     }
+    ,"bin": [
+        "router.php"
+    ]
 }
