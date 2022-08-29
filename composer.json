@@ -1,4 +1,5 @@
 {
+    "name": "erick-miguel/cloudhelpertest",
     "require": {
         "php": ">= 7.4",
         "laravel/helpers": "^1.5"
