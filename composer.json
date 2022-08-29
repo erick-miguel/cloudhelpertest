@@ -2,11 +2,6 @@
     "name": "erick-miguel/cloudfunctionhelpers",
     "main": "CloudFunctionsHelper.php",
     "autoload": {
-		"files": [
-			"src/Util.php"
-		]
-	},
-    "autoload": {
         "psr-0": { "CloudFunctionsHelpers": "src/" }
     },
     "require": {
