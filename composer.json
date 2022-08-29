@@ -1,17 +1,14 @@
 {
     "name": "erick-miguel/cloudfunctionhelpers",
-    "main": "CloudFunctionsHelper.php",
+    "type": "library",
     "autoload": {
-        "psr-0": { "CloudFunctionsHelpers": "src/" }
+        "psr-4": {
+            "CloudFunctionsHelpers\\": "src/"
+        }
     },
     "require": {
         "php": ">= 7.4",
         "laravel/helpers": "^1.5"
-    },
-    "scripts": {
-        "start": [
-           "Composer\\Config::disableProcessTimeout"
-        ]
     },
     "require-dev": {
         "vlucas/phpdotenv": "^5.4"
