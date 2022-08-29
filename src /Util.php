@@ -1,5 +1,5 @@
 <?php
-namespace CloudFunctionHelpers;
+namespace teste;
 
 use GuzzleHttp\Psr7\Response;
 
