@@ -1,16 +1,16 @@
 {
     "name": "erick-miguel/cloudfunctionhelpers",
     "type": "library",
-    "autoload": {
-        "psr-4": {
-            "CloudFunctionHelpers\\": "src/"
-        }
-    },
     "require": {
         "php": ">= 7.4",
         "laravel/helpers": "^1.5"
     },
     "require-dev": {
         "vlucas/phpdotenv": "^5.4"
+    }
+    ,"autoload": {
+        "psr-4": {
+            "CloudFunctionHelpers\\": "src/"
+        }
     }
 }
