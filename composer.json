@@ -6,9 +6,9 @@
         "laravel/helpers": "^1.5"
     },
     "autoload": {
-        "files": [
-            "src/CloudFunctionsHelper.php"
-        ]
+        "psr-4": {
+            "GoogleFunctionHelpers\\": "src/"
+        }
     },
     "scripts": {
         "start": [

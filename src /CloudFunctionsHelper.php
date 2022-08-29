@@ -1,5 +1,5 @@
 <?php
-namespace Helpers;
+namespace GoogleFunctionHelpers;
 
 use GuzzleHttp\Psr7\Response;
 
