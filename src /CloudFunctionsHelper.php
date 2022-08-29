@@ -1,9 +1,9 @@
 <?php
-namespace GoogleFunctionHelpers;
+namespace CloudFunctionsHelpers;
 
 use GuzzleHttp\Psr7\Response;
 
-class CloudFunctionsHelper
+class Util
 {
     private static $localAddresses = ['127.0.0.1', '::1'];
 
