@@ -13,7 +13,4 @@
             "CloudFunctionHelpers\\": "src"
         }
     }
-    ,"bin": [
-        "router.php"
-    ]
 }
